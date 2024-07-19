@@ -16,6 +16,7 @@
 
 (defvar-local show-eof-mode--ov nil)
 
+;;;###autoload
 (define-minor-mode show-eof-mode
   "Minor mode to show EOF marker."
   :init-value nil
